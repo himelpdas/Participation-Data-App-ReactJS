@@ -6,4 +6,4 @@
 
 ### react-scripts test
 
-![Preview](img.png "Preview")
+![Preview](img.PNG "Preview")

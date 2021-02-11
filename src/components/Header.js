@@ -46,7 +46,7 @@ function Header(props){
         <Col md={3} sm={6}>
             <InputGroup className="mb-3">
                 <InputGroup.Prepend>
-                    <InputGroup.Text id="basic-addon1">P</InputGroup.Text>
+                    <InputGroup.Text id="basic-addon1">H</InputGroup.Text>
                 </InputGroup.Prepend>
                 <FormControl type={"number"} onChange={onHr}
                     placeholder="Percent"

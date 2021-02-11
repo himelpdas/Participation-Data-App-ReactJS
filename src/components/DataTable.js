@@ -35,7 +35,7 @@ function DataTable(props) {
         <tbody>
         {props.tableState.map((value, index) => {
             return <tr key={value.id}>
-                <td>{value.id} <span style={{color: '#'+colorFromID(`${value.id}`)}}>■</span></td>
+                <td>{value.id} <span style={{color: colorFromID(`${value.id}`)}}>■</span></td>
                 <td>{value.firstname}</td>
                 <td>{value.lastname}</td>
                 <td>{value.hours}</td>
